@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #5a9;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #48a;
+}
+
+.stats {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#dog-action {
+  margin: 20px 0;
+}
+
+#status-text {
+  font-weight: bold;
+  margin-top: 10px;
+}

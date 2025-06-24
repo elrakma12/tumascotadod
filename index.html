@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOOD - Mascota Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐶 DOOD</h1>
+    
+    <div id="dog-action">
+      <!-- Aquí pondrás la imagen de DOOD -->
+       <img id="dog-image" src="./normal.png" alt="DOOD" width="200">
+      <p id="status-text">¡Hola! ¿Qué quieres hacer con DOOD?</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="doAction('comer')">🍖 Comer</button>
+      <button onclick="doAction('jugar')">🎾 Jugar</button>
+      <button onclick="doAction('bañar')">🛁 Bañar</button>
+      <button onclick="doAction('dormir')">🛏 Dormir</button>
+    </div>
+
+    <div class="stats">
+      <p>🍖 Hambre: <span id="hambre">100%</span></p>
+      <p>🎾 Diversión: <span id="diversion">100%</span></p>
+      <p>🛁 Limpieza: <span id="limpieza">100%</span></p>
+      <p>🛏 Energía: <span id="energia">100%</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
